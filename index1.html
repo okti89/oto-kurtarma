@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>En Yakın Oto Kurtarma</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="whatsapp">
+      <a href=""><i class="fa fa-whatsapp fa-2x" aria-hidden="true" style="margin-right: 10px;"></i>Whastapp İletişim</a>
+    </div>
+    <div class="call">
+      
+    </div>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <img src="../media/fast.png" />
+            <h3>AYAZ OTO KURTARMA</h3>
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="./cekici.html">En Yakın Çekici</a></li>
+              <li><a href="">En Yakın Çekici</a></li>
+              <li><a href="">En Yakın Çekici</a></li>
+              <li><a href="">En Yakın Çekici</a></li>
+              <li><a href="">İletişim</a></li>
+            </ul>
+          </nav>         
+        </div>
+        <hr>
+        <!---->
+        <div class="row" id="tooglerow">
+          <div class="col-2">
+            <h3>En Yakın Oto Çekiciyi Çağır</h3>
+            <a href="tel:+9" class="btn">Çekici Ara &#8594;</a>
+
+            <p>15 Dakikada Hemen Yanınızdayız</p>
+            <a href="tel:+9" class="btn"
+              >15 Dakikada Yardım &#8594;</a>
+            <a href="tel:+9" class="btn">0232 227 10 10</a>
+          </div>
+          <div class="col-2">
+            <img src="../media/banner.jpeg" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- featured products -->
+    <div class="small-container">
+      <h2 class="title">Hizmetlerimiz</h2>
+      <div class="row">
+      <div class="col-4">
+      <img src="./media/phone-call.png">
+      <h3>Araç Kurtarma</h3>
+      <p><a href="tel:+9" class="btn2"><i class="fa fa-phone" aria-hidden="true"></i> Servis Ara</a></p>
+      </div>
+      
+      <div class="col-4">
+      <img src="./media/boiler.png">
+      <h3>Araç Çekici</h3>
+      <p><a href="tel:+9" class="btn2"><i class="fa fa-phone" aria-hidden="true"></i> Servis Ara</a></p>
+      </div>
+      
+      <div class="col-4">
+      <img src="./media/air-conditioner.png">
+      <h3>Akü Takviye</h3>
+      <p><a href="tel:+9" class="btn2"><i class="fa fa-phone" aria-hidden="true"></i> Servis Ara</a></p>
+      </div>
+      
+      <div class="col-4">
+      <img src="./media/electric-appliance.png">
+      <h3>Ağır Ticari Araç Kurtarma</h3>
+      <p><a href="tel:+9" class="btn2"><i class="fa fa-phone" aria-hidden="true"></i> Servis Ara</a></p>
+      </div>
+      </div>
+      
+      </div>
+      </div>
+
+
+
+
+
+
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+      MenuItems.style.maxHeight = "0px";
+      var ToogleRow = document.getElementById("tooglerow");
+      
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+          ToogleRow.style.marginTop = "150px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+          ToogleRow.style.marginTop = "70px";
+
+        }
+      }
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
