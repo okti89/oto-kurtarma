@@ -1,3 +1,20 @@
+.subfluid {
+  background-color: black;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.subfluid h3 {
+  color: #f00;
+  padding-top: 20px;
+}
+
+.subfluid h5 {
+  color: #fff;
+  padding-top: 20px;
+  font-size: 1.1rem;
+}
+
 .fluid {
   background-color: black;
   padding-top: 10px;
