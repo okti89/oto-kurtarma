@@ -18,6 +18,23 @@
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
+<!-- Event snippet for Kişi (1) conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-16538008186/03KlCNjfyc4ZEPr09809',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
+    
     <title>EN YAKIN OTO KURTARMA</title>
   </head>
   <body>
